@@ -6,7 +6,7 @@ public class leetcode_15 {
     public static List<List<Integer>> three_sum(int[] a,int n){
         Arrays.sort(a);
         List<List<Integer>> output_arr =  new ArrayList<>();
-        for(int i =0 ;i<n;i++){
+        for(int i =0 ;i<n-2;i++){
             if(i==0 || (i>0 && a[i] != a[i-1])){
                 int low = i+1;
                 int high = n-1;
