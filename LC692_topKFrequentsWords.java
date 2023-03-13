@@ -8,13 +8,14 @@ import java.util.PriorityQueue;
 Given an array of strings words and an integer k, return the k most frequent strings.
 Return the answer sorted by the frequency from highest to lowest. Sort the words with the same frequency by their lexicographical order.
 */
-public class Leetcode_692{
+public class LC692_topKFrequentsWords{
     public static List<String> topKFrequent(String[] words, int k) {
         HashMap<String, Integer> map = new HashMap<>();
         for(String s : words){
             map.put(s, map.getOrDefault(s, 0)+1);
         }
         PriorityQueue<Map.Entry<String,Integer>> pq = new PriorityQueue<>((a,b)->a.getValue()==b.getValue() ? a.getKey().compareTo(b.getKey()) : b.getValue()-a.getValue() );
+        
         for(Map.Entry<String,Integer> smap : map.entrySet()){
             pq.add(smap);
         }

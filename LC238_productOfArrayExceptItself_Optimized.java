@@ -1,4 +1,4 @@
-public class Leetcode_238_optimized{
+public class LC238_productOfArrayExceptItself_Optimized{
     public static int[] productExceptSelf(int nums[]){
         int n = nums.length;
         int output_array[] = new int[n];

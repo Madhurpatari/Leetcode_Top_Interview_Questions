@@ -9,7 +9,7 @@ Given a mountain array arr, return the index i such that arr[0] < arr[1] < ... <
 
 You must solve it in O(log(arr.length)) time complexity.
  */
-public class Leetcode_852 {
+public class LC852_peakIndexInMountainArray {
     public static int peakIndexInMountainArray(int[] arr){
         int left =0;
         int right = arr.length-1;

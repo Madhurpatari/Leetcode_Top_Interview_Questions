@@ -4,7 +4,7 @@ Given an integer array nums, move all 0's to the end of it while maintaining the
 
 Note that you must do this in-place without making a copy of the array.
  */
-public class Leetcode_283{
+public class LC283_moveZeroes{
     public static void moveZeroes(int[] nums){
         int count= 0,j=0;
         for (int i = 0; i < nums.length; i++) {

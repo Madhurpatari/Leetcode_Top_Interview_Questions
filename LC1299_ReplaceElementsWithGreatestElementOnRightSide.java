@@ -23,7 +23,7 @@ Constraints:
 1 <= arr.length <= 104
 1 <= arr[i] <= 105
  */
-public class Leetcode_1299 {
+public class LC1299_ReplaceElementsWithGreatestElementOnRightSide {
     public static int[] replaceElements(int[] arr){
         int n= arr.length;
         int res[] = new int[n];

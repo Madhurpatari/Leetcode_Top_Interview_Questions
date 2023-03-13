@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class Leetcode_438 {
+public class LC438_findAllAnagramInString {
     public static ArrayList<Integer> findAnagrams(String s, String p) {
         ArrayList<Integer> result  = new ArrayList<>();
         

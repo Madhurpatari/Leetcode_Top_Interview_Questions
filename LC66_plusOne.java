@@ -28,7 +28,7 @@ Constraints:
 0 <= digits[i] <= 9
 digits does not contain any leading 0's.
  */
-public class Leetcode_66 {
+public class LC66_plusOne {
     public static int[] plusOne(int[] digits){
         int n= digits.length;
         for (int i = n-1; i >=0; i--){

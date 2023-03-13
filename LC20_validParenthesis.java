@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class valid_parenthesis_leetcode {
+public class LC20_validParenthesis {
     public static boolean is_valid(String s){
         if(s.length() %2 != 0){
             return false;

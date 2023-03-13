@@ -6,7 +6,7 @@ The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit int
 
 You must write an algorithm that runs in O(n) time and without using the division operation.
  */
-public class Leetcode_238 {
+public class LC238_productOfArrayExceptItself {
     public static int[] productExceptSelf(int nums[]){
         int n = nums.length;
         int left_products[] = new int[nums.length];

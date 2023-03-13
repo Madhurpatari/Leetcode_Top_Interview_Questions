@@ -6,7 +6,7 @@ Example 1:
 Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
 Output: 6
  */
-public class Leetcode_42 {
+public class LC42_trappingRainWater {
     static int result =0;
     public static int trap(int[] height){
         int n = height.length;

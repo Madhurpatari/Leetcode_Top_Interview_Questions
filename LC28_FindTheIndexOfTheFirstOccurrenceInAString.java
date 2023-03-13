@@ -12,7 +12,7 @@ Input: haystack = "leetcode", needle = "leeto"
 Output: -1
 Explanation: "leeto" did not occur in "leetcode", so we return -1.
  */
-public class Leetocode28 {
+public class LC28_FindTheIndexOfTheFirstOccurrenceInAString {
     public static int first_occurence(String haystack , String needle){
         for (int i = 0; i < (haystack.length()-needle.length())+1; i++) {
             if(haystack.charAt(i)==needle.charAt(0)){

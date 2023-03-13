@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class leetcode_15 {
+public class LC15_3sum {
     public static List<List<Integer>> three_sum(int[] a,int n){
         Arrays.sort(a);
         List<List<Integer>> output_arr =  new ArrayList<>();

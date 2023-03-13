@@ -1,4 +1,4 @@
-public class Leetcode_941{
+public class LC941_ValidMountainArray{
     public static boolean isValidMountainArray(int arr[]){
         int left = 0;
         int right = arr.length-1;

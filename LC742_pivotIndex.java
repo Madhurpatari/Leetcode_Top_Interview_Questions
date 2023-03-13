@@ -1,4 +1,4 @@
-public class Leetcode_742{
+public class LC742_pivotIndex{
     public static int pivotIndex(int[] nums){
         int n = nums.length;
         int left_sum[] = new int[n];
