@@ -13,7 +13,7 @@ public class LC128_longestConsecutiveSequence{
         for(int num : nums){
             int current_length =1;
             //check in forward direction
-            int next_num = num +1;
+            int next_num = num +1;//101
             while(map.containsKey(next_num) && map.get(next_num)==false){
                 current_length++;
                 map.put(next_num, true);
@@ -21,7 +21,7 @@ public class LC128_longestConsecutiveSequence{
             }
 
             //check in backward direction
-            int previous_num = num-1;
+            int previous_num = num-1;//99
             while(map.containsKey(previous_num) && map.get(previous_num)==false){
                 current_length++;
                 map.put(previous_num, true);
